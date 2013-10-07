@@ -1,0 +1,9 @@
+bundle
+# Created by http://gitignore.io
+
+### vim ###
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
