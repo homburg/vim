@@ -188,5 +188,10 @@ Bundle 'vcscommand.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jellybeans.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'jnwhiteh/vim-golang'
 
 filetype plugin indent on
+
+colorscheme jellybeans
