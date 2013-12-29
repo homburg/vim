@@ -178,19 +178,27 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+" Languages
 Bundle 'derekwyatt/vim-scala'
-
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-commentary'
-Bundle 'vcscommand.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jellybeans.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'wavded/vim-stylus'
+
+" Themes
+Bundle 'jellybeans.vim'
+
+" VCS
+Bundle 'tpope/vim-fugitive'
+Bundle 'vcscommand.vim'
+
+" Other
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-commentary'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'
+
 
 filetype plugin indent on
 
