@@ -198,6 +198,8 @@ Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'junegunn/goyo.vim'
+Bundle 'amix/vim-zenroom2'
 
 
 filetype plugin indent on
