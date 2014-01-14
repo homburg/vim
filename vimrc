@@ -184,6 +184,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'wavded/vim-stylus'
+Bundle 'gkz/vim-ls'
 
 " Themes
 Bundle 'jellybeans.vim'
@@ -200,6 +201,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'junegunn/goyo.vim'
 Bundle 'amix/vim-zenroom2'
+Bundle 'editorconfig/editorconfig-vim'
 
 
 filetype plugin indent on
