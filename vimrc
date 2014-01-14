@@ -202,6 +202,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'junegunn/goyo.vim'
 Bundle 'amix/vim-zenroom2'
 Bundle 'editorconfig/editorconfig-vim'
+Bundle 'mattn/emmet-vim'
 
 
 filetype plugin indent on
