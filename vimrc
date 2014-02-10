@@ -191,7 +191,8 @@ Bundle 'jellybeans.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'w0ng/vim-hybrid'
 
 filetype plugin indent on
 
-colorscheme jellybeans
+colorscheme hybrid
