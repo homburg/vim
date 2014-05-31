@@ -176,15 +176,27 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/vundle.vim'
 
 " Languages
+" scala
 Bundle 'derekwyatt/vim-scala'
+" coffee-script
 Bundle 'kchmck/vim-coffee-script'
+" jade
 Bundle 'digitaltoad/vim-jade'
-Bundle 'jnwhiteh/vim-golang'
+" golang
+" Bundle 'jnwhiteh/vim-golang'
+Bundle 'Blackrush/vim-gocode'
+" stylus
 Bundle 'wavded/vim-stylus'
+" LiveScript
 Bundle 'gkz/vim-ls'
+" clojure
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+Bundle 'guns/vim-clojure-static'
+Bundle 'kien/rainbow_parentheses.vim'
 
 " Themes
 " Bundle 'jellybeans.vim'
@@ -195,6 +207,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vcscommand.vim'
 
 " Other
+Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-commentary'
@@ -208,3 +221,10 @@ Bundle 'mattn/emmet-vim'
 filetype plugin indent on
 
 colorscheme hybrid
+
+" Rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
