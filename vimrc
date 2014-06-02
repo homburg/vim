@@ -197,6 +197,7 @@ Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'guns/vim-sexp'
 
 " Themes
 " Bundle 'jellybeans.vim'
