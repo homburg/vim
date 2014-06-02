@@ -126,8 +126,6 @@ set dir=~/tmp/vimswaps
 set bdir=~/tmp/vimswaps
 
 set tags=./tags,./TAGS,tags,TAGS,~/.vim/tags
-execute pathogen#infect()
-execute pathogen#helptags()
 
 " vimux run last command on \r
 " unmap \r " No such mapping
@@ -173,10 +171,10 @@ let g:syntastic_auto_loc_list=1
 " Vundle
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle.vim'
+Bundle 'gmarik/Vundle.vim'
 
 " Languages
 " scala
@@ -198,6 +196,10 @@ Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'guns/vim-sexp'
+" yaml (ansible)
+Bundle 'chase/vim-ansible-yaml'
+Bundle 'stephpy/vim-yaml'
+
 
 " Themes
 " Bundle 'jellybeans.vim'
@@ -219,6 +221,7 @@ Bundle 'amix/vim-zenroom2'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mattn/emmet-vim'
 
+call vundle#end()
 filetype plugin indent on
 
 colorscheme hybrid
