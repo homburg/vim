@@ -220,6 +220,8 @@ Bundle 'junegunn/goyo.vim'
 Bundle 'amix/vim-zenroom2'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mattn/emmet-vim'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'tpope/vim-unimpaired'
 
 call vundle#end()
 filetype plugin indent on
