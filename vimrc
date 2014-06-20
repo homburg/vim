@@ -222,6 +222,7 @@ Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'AutoComplPop'
 
 call vundle#end()
 filetype plugin indent on
