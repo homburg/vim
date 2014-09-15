@@ -239,6 +239,9 @@ filetype plugin indent on
 
 colorscheme hybrid
 
+" Mix system clipboard and vim clipboard
+set clipboard=unnamed
+
 " Rainbow parentheses
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
