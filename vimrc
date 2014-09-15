@@ -168,6 +168,14 @@ let g:syntastic_php_phpcs_args="--standard=PSR2 --report=csv"
 " Auto open loc list for errors
 let g:syntastic_auto_loc_list=1
 
+nnoremap <silent> ,g :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
+if executable('pt')
+	let g:unite_source_grep_command = 'pt'
+	let g:unite_source_grep_default_opts = '--nogroup --nocolor'
+	let g:unite_source_grep_recursive_opt = ''
+	let g:unite_source_grep_encoding = 'utf-8'
+endif
+
 " Vundle
 filetype off
 
@@ -223,6 +231,8 @@ Bundle 'mattn/emmet-vim'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'AutoComplPop'
+Bundle 'Shougo/unite.vim'
+Bundle 'DirDiff.vim'
 
 call vundle#end()
 filetype plugin indent on
