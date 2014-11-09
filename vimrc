@@ -231,6 +231,7 @@ Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'AutoComplPop'
 Bundle 'Shougo/unite.vim'
+Bundle 'ConradIrwin/vim-bracketed-paste'
 Bundle 'DirDiff.vim'
 
 call vundle#end()
