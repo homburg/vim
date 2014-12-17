@@ -207,7 +207,11 @@ Bundle 'guns/vim-sexp'
 " yaml (ansible)
 Bundle 'chase/vim-ansible-yaml'
 Bundle 'stephpy/vim-yaml'
-
+" python
+Bundle 'davidhalter/jedi-vim'
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 " Themes
 " Bundle 'jellybeans.vim'
@@ -233,12 +237,13 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'AutoComplPop'
 Bundle 'Shougo/unite.vim'
 Bundle 'ConradIrwin/vim-bracketed-paste'
-Bundle 'DirDiff.vim'
 
 call vundle#end()
 filetype plugin indent on
 
-colorscheme hybrid
+set background=dark
+" let base16colorspace=256 " Access colors in the 256 colorspace
+colorscheme base16-default
 
 " Mix system clipboard and vim clipboard
 set clipboard=unnamed
