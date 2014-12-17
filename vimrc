@@ -211,7 +211,8 @@ Bundle 'stephpy/vim-yaml'
 
 " Themes
 " Bundle 'jellybeans.vim'
-Bundle 'w0ng/vim-hybrid'
+" Bundle 'w0ng/vim-hybrid'
+Plugin 'chriskempson/base16-vim'
 
 " VCS
 Bundle 'tpope/vim-fugitive'
