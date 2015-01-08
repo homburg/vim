@@ -192,8 +192,7 @@ Bundle 'kchmck/vim-coffee-script'
 " jade
 Bundle 'digitaltoad/vim-jade'
 " golang
-" Bundle 'jnwhiteh/vim-golang'
-Bundle 'Blackrush/vim-gocode'
+Bundle 'fatih/vim-go'
 " stylus
 Bundle 'wavded/vim-stylus'
 " LiveScript
@@ -203,7 +202,6 @@ Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'guns/vim-sexp'
 " yaml (ansible)
 Bundle 'chase/vim-ansible-yaml'
 Bundle 'stephpy/vim-yaml'
@@ -234,7 +232,6 @@ Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-unimpaired'
-Bundle 'AutoComplPop'
 Bundle 'Shougo/unite.vim'
 Bundle 'ConradIrwin/vim-bracketed-paste'
 
