@@ -212,9 +212,9 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 " Themes
-" Bundle 'jellybeans.vim'
+Bundle 'nanotech/jellybeans.vim'
 " Bundle 'w0ng/vim-hybrid'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'chriskempson/base16-vim'
 
 " VCS
 Bundle 'tpope/vim-fugitive'
@@ -238,9 +238,8 @@ Bundle 'ConradIrwin/vim-bracketed-paste'
 call vundle#end()
 filetype plugin indent on
 
-set background=dark
-" let base16colorspace=256 " Access colors in the 256 colorspace
-colorscheme base16-default
+set t_Co=256
+colorscheme jellybeans
 
 " Fix match paren hiding parentheses
 let loaded_matchparen = 1
