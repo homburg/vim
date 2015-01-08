@@ -242,6 +242,9 @@ set background=dark
 " let base16colorspace=256 " Access colors in the 256 colorspace
 colorscheme base16-default
 
+" Fix match paren hiding parentheses
+let loaded_matchparen = 1
+
 " Mix system clipboard and vim clipboard
 set clipboard=unnamed
 
