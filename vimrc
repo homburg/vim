@@ -211,11 +211,6 @@ Bundle 'davidhalter/jedi-vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
-" Themes
-Bundle 'nanotech/jellybeans.vim'
-" Bundle 'w0ng/vim-hybrid'
-" Plugin 'chriskempson/base16-vim'
-
 " VCS
 Bundle 'tpope/vim-fugitive'
 Bundle 'vcscommand.vim'
@@ -235,11 +230,20 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'Shougo/unite.vim'
 Bundle 'ConradIrwin/vim-bracketed-paste'
 
+" Themes
+" Bundle 'nanotech/jellybeans.vim'
+" Bundle 'w0ng/vim-hybrid'
+" Plugin 'chriskempson/base16-vim'
+Bundle 'morhetz/gruvbox'
+
+
 call vundle#end()
 filetype plugin indent on
 
+" Setup theme
 set t_Co=256
-colorscheme jellybeans
+set background=dark
+colorscheme gruvbox
 
 " Fix match paren hiding parentheses
 let loaded_matchparen = 1
