@@ -138,21 +138,6 @@ function! s:GoLint()
 endfunction
 command! GoLint :call s:GoLint()
 
-" Enable autocompletion on startup
-let g:acp_enableAtStartup = 1
-
-function! AcpMeetsForGo(context)
-	  return &omnifunc != '' && a:context =~ '\k\.\k*$'
-  endfunction
-
-let g:acp_behavior = {
-	\  'go': [{
-	\	'command': "\<C-x>\<C-o>",
-	\	'meets': 'AcpMeetsForGo',
-	\	'repeat': 0
-	\  }]
-	\ }
-
 " ctrlp.vim settings
 " " Use actual working dir, if parent dir of opened file
 let g:ctrlp_working_path_mode = 'a'
