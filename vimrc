@@ -195,6 +195,8 @@ Bundle 'davidhalter/jedi-vim'
 " Markdown
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+" Kotlin
+Plugin 'udalov/kotlin-vim'
 
 " VCS
 Bundle 'tpope/vim-fugitive'
